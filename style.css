@@ -10,6 +10,19 @@ body {
   font-size: 120%;
 }
 
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  body {
+    background-position: 0px 0px;
+    animation: animatedBackground 20s linear infinite alternate;
+}
+
 .card {
   background: #000000d0;
   color: white;
